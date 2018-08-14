@@ -10,9 +10,9 @@ Create a new paper (e.g.):
 
 ```sh
 $ git clone git@github.com:NVSL/paper-template.git 2019ASPLOS-StarQuake
-$ cd paper-template
+$ cd 2019ASPLOS-StarQuake
 $ make setup
-$ libpaper/bin/newpaper --topic StarQuake --year 2019 --conference ASPLOS --github-user stevenjswanson
+$ libpaper/bin/newpaper.py --topic StarQuake --year 2019 --conference ASPLOS --github-user stevenjswanson
 $ make
 $ open paper.pdf
 ```
