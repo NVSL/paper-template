@@ -6,14 +6,19 @@ This repo works in conjunction with `libpaper` a set of common `.tex`, `.bib`, a
 
 ## Usage
 
-Create a new paper (e.g.):
+Create a new paper, you need to:
+
+1.  Get a copy of `libpaper`, e.g. with `git clone git@github.com:NVSL/libpaper.git ./libpaper` or 
 
 ```sh
-$ git clone git@github.com:NVSL/paper-template.git 2019ASPLOS-StarQuake
-$ cd 2019ASPLOS-StarQuake
+$ git clone git@github.com:NVSL/paper-template.git
+$ cd paper-template
 $ make setup
-$ libpaper/bin/newpaper.py --topic StarQuake --year 2019 --conference ASPLOS --github-user stevenjswanson
-$ make
-$ open paper.pdf
+```
+
+Assuming the latter:
+ 
+```sh
+$ paper-template/libpaper/bin/newpaper.py --topic StarQuake --year 2019 --conference ASPLOS --github-user stevenjswanson
 ```
 
