@@ -24,5 +24,6 @@ paper.pdf
 *.bcf
 *.run.xml
 .#*
+#*
 .test_build
 libpaper

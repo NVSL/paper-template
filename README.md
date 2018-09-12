@@ -9,7 +9,10 @@ Don't forget the timezone.
 * Rebuttal Period: <Fill it in>
 * Author Notification: <Fill it in>
 * Camera ready: <Fill it in>
+* Page limit: <Fill it in>
 
+* Conference Dates: <Fill it in>
+* Conference Location: <Fill it in>
 
 ## The Template
 
@@ -36,3 +39,21 @@ $ paper-template/libpaper/bin/newpaper.py --topic StarQuake --year 2019 --confer
 ```
 
 Note that you *should not* be checking in the contents of `libpaper` in your paper repo.  You should checkeout `libpaper` in a subdirectory.
+
+## Submitting to ArXiv
+
+To build a version to submit to Arxiv, you need to change the top line of `paper.tex` to 
+
+```tex
+\documentclass[manuscript]{acmart}
+```
+
+and then do 
+
+```sh
+make arxiv
+```
+
+This will create a `*-arxiv.tgz` which should upload and build fine on Arxiv.  Please try it and make sure it works, but *do not* post the document.  Steve will do that.
+
+
