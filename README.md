@@ -57,3 +57,17 @@ make arxiv
 This will create a `*-arxiv.tgz` which should upload and build fine on Arxiv.  Please try it and make sure it works, but *do not* post the document.  Steve will do that.
 
 
+## Grammar Checking
+
+Grammerly (https://app.grammarly.com/) is a free and very good grammar checker.  It can't understand tex, but you can still use it to check the grammar in your papers by exporting the paper as text and uploading.  Create an Grammarly account and then do 
+
+```sh
+$ make paper.txt
+```
+
+To generate a text version of your paper, upload it, and go through its suggestions.
+
+Like all grammar checkers, it is imperfect, so you must use your judgement and read the suggestions carefully.  It catches a bunch of stuff, though.
+
+
+
