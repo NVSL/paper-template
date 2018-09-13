@@ -40,34 +40,7 @@ $ paper-template/libpaper/bin/newpaper.py --topic StarQuake --year 2019 --confer
 
 Note that you *should not* be checking in the contents of `libpaper` in your paper repo.  You should checkeout `libpaper` in a subdirectory.
 
-## Submitting to ArXiv
+## Cool Tricks
 
-To build a version to submit to Arxiv, you need to change the top line of `paper.tex` to 
-
-```tex
-\documentclass[manuscript]{acmart}
-```
-
-and then do 
-
-```sh
-make arxiv
-```
-
-This will create a `*-arxiv.tgz` which should upload and build fine on Arxiv.  Please try it and make sure it works, but *do not* post the document.  Steve will do that.
-
-
-## Grammar Checking
-
-Grammerly (https://app.grammarly.com/) is a free and very good grammar checker.  It can't understand tex, but you can still use it to check the grammar in your papers by exporting the paper as text and uploading.  Create an Grammarly account and then do 
-
-```sh
-$ make paper.txt
-```
-
-To generate a text version of your paper, upload it, and go through its suggestions.
-
-Like all grammar checkers, it is imperfect, so you must use your judgement and read the suggestions carefully.  It catches a bunch of stuff, though.
-
-
+`libpaper` provides a bunch of useful utilities and functions to make writing papers easier.  Please see the `README.md` in `libpaper` for details.  
 
