@@ -42,20 +42,15 @@ Note that you *should not* be checking in the contents of `libpaper` in your pap
 
 ## Submitting to ArXiv
 
-To build a version to submit to Arxiv, you need to change the top line of `paper.tex` to 
+To prepare a paper for submission to the ArXiv (or for distribution to companies, etc.)
 
-```tex
-\documentclass[twocolumn]{article}
-```
-
-and then do 
-
-```sh
-make arxiv
-```
-
-This will create a `*-arxiv.tgz` which should upload and build fine on Arxiv.  Please try it and make sure it works, but *do not* post the document.  Steve will do that.
-
+1. Make sure the paper builds properly using `libpaper`
+2. Make sure the 'make arxiv' target works properly. It should give you a tar ball with everything you need to build the paper: `*-arxiv.tgz`. There are some variables you may need to set in your `Makefile`.  See `NVSL/paper-template` for an example.
+3. Create a branch for the arxiv submission with the name `arxiv`
+4. Change the first line of `paper.tex` to `\documentclass[twocolumn]{article}`
+5. Remove all the comments and `\ignore{}`s -- Everything that does not appear in the paper output.
+6. Create an account on http://arxiv.org and test that it builds properly there. **__do not__** submit it (this is very important).
+7. Commit the changes to the branch.
 
 ## Grammar Checking
 
