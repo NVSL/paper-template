@@ -45,7 +45,7 @@ Note that you *should not* be checking in the contents of `libpaper` in your pap
 To build a version to submit to Arxiv, you need to change the top line of `paper.tex` to 
 
 ```tex
-\documentclass[manuscript]{acmart}
+\documentclass[twocolumn]{article}
 ```
 
 and then do 
