@@ -90,6 +90,6 @@ If it’s not a technical term, minimize repetition.  For instance, grammarly fl
 
 These are words that people use too much in general.  If it’s a technical term, keep it.    For instance, “strongest” has a technical meaning in terms of consistency, but in a non-technical context, you could replace with “most powerful”.   For non-techinical terms, you don’t always need to fix these.  Use the most clear, descriptive, and accurate word you can find.
 
-#### TeX Articfacts
+#### TeX Artifacts
 paper.grammarly.txt is not perfect, and some TeX artifacts end up in there.  Ignore any complaints from Grammarly about those.
 
