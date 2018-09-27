@@ -1,4 +1,4 @@
-# At NVSL Paper
+# An NVSL Paper
 
 ## Deadlines
 
