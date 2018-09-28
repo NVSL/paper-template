@@ -1,4 +1,4 @@
-# At NVSL Paper
+# An NVSL Paper
 
 ## Deadlines
 
@@ -43,4 +43,3 @@ Note that you *should not* be checking in the contents of `libpaper` in your pap
 ## Cool Tricks
 
 `libpaper` provides a bunch of useful utilities and functions to make writing papers easier.  Please see the `README.md` in `libpaper` for details.  
-
