@@ -28,3 +28,5 @@ paper.pdf
 .test_build
 libpaper
 *-arxiv
+*.grammarly.txt
+libpaper_metadata.tex
