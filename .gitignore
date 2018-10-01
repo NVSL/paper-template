@@ -24,9 +24,14 @@ paper.pdf
 *.bcf
 *.run.xml
 .#*
-#*
+\#*
 .test_build
 libpaper
 *-arxiv
 *.grammarly.txt
 libpaper_metadata.tex
+\**
+~*
+*.grammarly.*
+paper.docx
+paper.txt
