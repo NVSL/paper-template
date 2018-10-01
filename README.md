@@ -18,27 +18,15 @@ Don't forget the timezone.
 
 We will be using this template moving forward as the starting point for all papers.  You should fork the repo to create a new paper.
 
-This repo works in conjunction with `libpaper` a set of common `.tex`, `.bib`, and other files we will use for writing papers.  That repo is here:  [git@github.com:NVSL/libpaper.git]
+This repo works in conjunction with `libpaper` a set of common `.tex`, `.bib`, and other files we will use for writing papers.  That repo is here:  [git@github.com:NVSL/libpaper.git].  By default, the template use the `libpaper` in the parent directory, so you'll share one copy of `libpaper` for all papers.
 
 ## Usage
 
-Create a new paper, you need to:
-
-1.  Get a copy of `libpaper`, e.g. with `git clone git@github.com:NVSL/libpaper.git ./libpaper` or 
+Create a new paper, you need to do:
 
 ```sh
-$ git clone git@github.com:NVSL/paper-template.git
-$ cd paper-template
-$ make setup
+$ libpaper/bin/newpaper.py --topic StarQuake --year 2019 --conference ASPLOS --github-user stevenjswanson
 ```
-
-Assuming the latter:
- 
-```sh
-$ paper-template/libpaper/bin/newpaper.py --topic StarQuake --year 2019 --conference ASPLOS --github-user stevenjswanson
-```
-
-Note that you *should not* be checking in the contents of `libpaper` in your paper repo.  You should checkeout `libpaper` in a subdirectory.
 
 ## Cool Tricks
 
