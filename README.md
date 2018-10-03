@@ -4,8 +4,8 @@
 
 Don't forget the timezone.
 
-* Abstract Due: <Fill it in>
-* Full paper Due: <Fill it in>
+* Abstract Due: <Fill it in, including time>
+* Full paper Due: <Fill it in, including time>
 * Rebuttal Period: <Fill it in>
 * Author Notification: <Fill it in>
 * Camera ready: <Fill it in>
