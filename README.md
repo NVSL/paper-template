@@ -4,17 +4,17 @@
 
 Don't forget the timezone.
 
-* Abstract Due: <Fill it in, including time>
-* Full paper Due: <Fill it in, including time>
-* Rebuttal Period: <Fill it in>
-* Author Notification: <Fill it in>
-* Camera ready: <Fill it in>
-* Page limit: <Fill it in>
+* Abstract Due: <--Fill it in, including time-->
+* Full paper Due: <--Fill it in, including time-->
+* Rebuttal Period: <--Fill it in-->
+* Author Notification: <--Fill it in-->
+* Camera ready: <--Fill it in-->
+* Page limit: <--Fill it in-->
 - [ ] Paper is formatted to meet submission requirements
 
-* Conference Dates: <Fill it in>
-* Conference Location: <Fill it in>
-* Early Registration Deadline: <Fill it in>
+* Conference Dates: <--Fill it in-->
+* Conference Location: <--Fill it in-->
+* Early Registration Deadline: <--Fill it in-->
 
 
 ## The Template
