@@ -35,6 +35,6 @@ libpaper_metadata.tex
 *.grammarly.*
 paper.docx
 paper.txt
-*.fls # Latexmk build artifact
+*.fls
 _minted*
 *.fdb_latexmk
