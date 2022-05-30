@@ -1,4 +1,5 @@
 paper.pdf
+*.brf
 *.log
 *.aux
 *.cfg
